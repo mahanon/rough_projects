@@ -5,6 +5,7 @@ import time
 #######
 #######
 # Extract raw data from GBD files into naive database, save.
+# Note: raw directories not in github. See the anaylze code, which uses only the extracted data in pickle.
 
 # Check code for config settings. For new data subset, define new config!
 def gross_pd(config_no = 1, save_pickle = 1):
