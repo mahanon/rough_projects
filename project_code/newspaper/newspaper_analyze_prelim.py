@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from core_classifier_newspaper import *
+from newspaper_core_classifier import *
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import roc_curve, roc_auc_score
 import pickle
